@@ -1,7 +1,7 @@
-package cucumberTestTask.api;
+package task2.api;
 
-import cucumberTestTask.requests.GetWeather;
-import cucumberTestTask.tools.EnvConstants;
+import task2.requests.GetWeather;
+import task2.tools.EnvConstants;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;

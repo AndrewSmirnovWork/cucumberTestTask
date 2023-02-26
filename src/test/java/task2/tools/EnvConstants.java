@@ -1,4 +1,4 @@
-package cucumberTestTask.tools;
+package task2.tools;
 
 public class EnvConstants {
     public static final String CONTENT_TYPE = PropertiesFile.getProperty("content.type");

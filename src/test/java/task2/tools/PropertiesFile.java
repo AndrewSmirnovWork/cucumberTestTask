@@ -1,4 +1,4 @@
-package cucumberTestTask.tools;
+package task2.tools;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

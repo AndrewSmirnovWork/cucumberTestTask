@@ -1,8 +1,8 @@
-package cucumberTestTask.stepDefinitions;
+package task2.stepDefinitions;
 
-import cucumberTestTask.api.BaseApi;
-import cucumberTestTask.message.ApiErrorsAndMessages;
-import cucumberTestTask.requests.GetWeather;
+import task2.api.BaseApi;
+import task2.message.ApiErrorsAndMessages;
+import task2.requests.GetWeather;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

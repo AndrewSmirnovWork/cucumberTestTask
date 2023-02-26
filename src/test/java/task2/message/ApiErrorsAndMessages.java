@@ -1,5 +1,5 @@
 
-package cucumberTestTask.message;
+package task2.message;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

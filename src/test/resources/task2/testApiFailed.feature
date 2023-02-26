@@ -10,12 +10,12 @@ Feature: Testing API errors
       And Request with valid parameter access_key
     Then status code is 601 and "Please specify a valid location identifier using the query parameter."
 
-  Scenario: Check weather without "query" parameter
+  Scenario: Check weather with invalid "query" parameter
     Given I send a request with parameter "query" and "wrongQuery"
      And Request with valid parameter access_key
     Then status code is 615 and "Your API request failed. Please try again or contact support."
 
-  Scenario: Check weather without "query" parameter
+  Scenario: Check weather with invalid "units" parameter
     Given I send a request with parameter "units" and "wrongUnit"
       And Request with valid parameter query
       And Request with valid parameter access_key

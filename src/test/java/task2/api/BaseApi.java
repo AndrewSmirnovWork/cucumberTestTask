@@ -1,4 +1,4 @@
-package cucumberTestTask.api;
+package task2.api;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;

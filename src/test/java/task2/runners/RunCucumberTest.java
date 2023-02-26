@@ -1,4 +1,4 @@
-package cucumberTestTask.runners;
+package task2.runners;
 
 import org.junit.platform.suite.api.ConfigurationParameter;
 import org.junit.platform.suite.api.IncludeEngines;

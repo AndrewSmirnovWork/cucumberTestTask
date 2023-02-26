@@ -1,7 +1,7 @@
-package cucumberTestTask.requests;
+package task2.requests;
 
-import cucumberTestTask.api.BaseApi;
-import cucumberTestTask.tools.EnvConstants;
+import task2.api.BaseApi;
+import task2.tools.EnvConstants;
 
 import java.util.Arrays;
 import java.util.List;

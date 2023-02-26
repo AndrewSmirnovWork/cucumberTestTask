@@ -1,7 +1,7 @@
-package cucumberTestTask.stepDefinitions;
+package task2.stepDefinitions;
 
-import cucumberTestTask.requests.GetWeather;
-import cucumberTestTask.responce.Weather;
+import task2.requests.GetWeather;
+import task2.responce.Weather;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
