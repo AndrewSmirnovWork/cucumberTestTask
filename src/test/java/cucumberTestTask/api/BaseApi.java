@@ -1,20 +1,17 @@
 package cucumberTestTask.api;
 
-import cucumberTestTask.tools.EnvConstants;
-
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.util.HashMap;
 import java.util.Map;
 
-public class BaseApi extends BaseEndpoints{
+public class BaseApi extends BaseEndpoints {
 
-    private transient String subdirectory;
     public transient String pathWithQuery;
-
     //required parameters
-    public String access_key = EnvConstants.ACCESS_KEY;
+    public String access_key;
     public String query;
+    private transient String subdirectory;
 
     public String getPathWithQuery() {
         return pathWithQuery;
@@ -30,8 +27,9 @@ public class BaseApi extends BaseEndpoints{
                 }
             }
             //getting all parameters from class
-            String url = "?";
             int size = map.size();
+            String url = "";
+            if(size > 0) url += "?";
             for (Map.Entry<String, Object> entry : map.entrySet()) {
                 String key = entry.getKey();
                 Object value = entry.getValue();

@@ -3,8 +3,8 @@ package cucumberTestTask.stepDefinitions;
 import cucumberTestTask.requests.GetWeather;
 import cucumberTestTask.responce.Weather;
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
@@ -14,7 +14,7 @@ public class GetApiSteps {
     private static final Logger LOG = LogManager.getLogger(GetApiSteps.class);
     private GetWeather getWeather;
 
-    @When("user want to get information about weather in {string}")
+    @Given("user want to get information about weather in {string}")
     public void userWantToGetInformationAboutWeatherInCity(String city) throws IllegalAccessException {
         getWeather = new GetWeather(city);
         getWeather.getSetup(getWeather.pathWithQuery);
